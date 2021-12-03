@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;1,500&display=swap" rel="stylesheet">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+    
+    <!-- (header>h1{Heading})+(main>article>h2.title-article{title-article}+(p.content{content}+p.date{date}))+(section>(article>h2.title-article{title-article}+(h2.type-info{type info}+p.content{content}+p.date{date})*3)*3) -->
+
+    <header>
+        <h1>Резюме</h1>
+        <hr>
+    </header>
+    <main>
+        <!-- Main information -->
+        <article>
+            <h2 class="title-article">Личная информация</h2>
+            <p class="content">Парфёнова Любовь</p>
+            <p class="date">15.06.1996</p>
+        </article>
+    </main>
+    <section>
+        <!-- Contacts information -->
+        <article>
+            <h2 class="title-article">Контактная информация</h2>
+            <p class="contacts"><a href="tel:+380636741722">380636741722</a></p>
+            <p class="contacts"><a href="mailto:lubaparfyonova@gmail.com">lubaparfyonova@gmail.com</a></p>
+            <p class="contacts">Днипро</p>
+            <hr>
+        </article>
+        <!-- Education -->
+        <article>
+            <h2 class="title-article">Образование</h2>
+            <h2 class="type-info">Высшее</h2>
+            <p class="content">Украинский химико-технологический университет <br>Инженер-технолог производства неорганических веществ</p>
+            <p class="date">2015-2020 гг.</p>
+            <h2 class="type-info">Среднее</h2>
+            <p class="content">Славянский химико-механический техникум <br> Химик-лаборант</p>
+            <p class="date">2011-2014 гг.</p>
+            <h2 class="type-info">Знание English</h2>
+            <p class="content">Elementary. A1</p>
+            <hr>
+        </article>
+        <!-- Work experience -->
+        <article>
+            
+            <h2 class="title-article">Опыт работы</h2>
+
+            <!-- ul>(li>(p.position{position}+p.work-place{work place}+p.date{date}))*3 -->
+
+            <ul>
+                <li>
+                    <p class="position">Лаборант химического анализа</p>
+                    <p class="work-place">МЗ Интерпайп Сталь</p>
+                    <p class="date">с 2021 г</p>
+                </li>
+                <li>
+                    <p class="position">Агент по продаже недвижимости</p>
+                    <p class="work-place">АН KVADRATGROUP</p>
+                    <p class="date">2020-2021 гг.</p>
+                </li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>

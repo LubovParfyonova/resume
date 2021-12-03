@@ -1,0 +1,39 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+h1 {
+    color: rgb(68, 65, 65);
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+a {
+    color: rgb(35, 35, 58);
+    text-decoration: none;
+}
+.title-article {
+    font-weight: 100;
+    font-style: italic;
+    text-indent: 2em;
+    text-decoration-line: underline;
+}
+.content {
+    font-size: 20px;
+    margin-left: 3em;
+}
+.date {
+    font-size: 22px;
+    text-indent: 2em;
+}
+.contacts {
+    color: rgb(35, 35, 58);
+    text-indent: 5em;
+}
+.type-info {
+    text-indent: 2em;
+}
+.position {
+
+}
+.work-place {
+    
+}
