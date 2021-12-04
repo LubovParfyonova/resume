@@ -17,58 +17,64 @@
 
     <header>
         <h1>Резюме</h1>
-        <hr>
     </header>
-    <main>
-        <!-- Main information -->
-        <article>
-            <h2 class="title-article">Личная информация</h2>
-            <p class="content">Парфёнова Любовь</p>
-            <p class="date">15.06.1996</p>
-        </article>
-    </main>
-    <section>
-        <!-- Contacts information -->
-        <article>
-            <h2 class="title-article">Контактная информация</h2>
-            <p class="contacts"><a href="tel:+380636741722">380636741722</a></p>
-            <p class="contacts"><a href="mailto:lubaparfyonova@gmail.com">lubaparfyonova@gmail.com</a></p>
-            <p class="contacts">Днипро</p>
-            <hr>
-        </article>
-        <!-- Education -->
-        <article>
-            <h2 class="title-article">Образование</h2>
-            <h2 class="type-info">Высшее</h2>
-            <p class="content">Украинский химико-технологический университет <br>Инженер-технолог производства неорганических веществ</p>
-            <p class="date">2015-2020 гг.</p>
-            <h2 class="type-info">Среднее</h2>
-            <p class="content">Славянский химико-механический техникум <br> Химик-лаборант</p>
-            <p class="date">2011-2014 гг.</p>
-            <h2 class="type-info">Знание English</h2>
-            <p class="content">Elementary. A1</p>
-            <hr>
-        </article>
-        <!-- Work experience -->
-        <article>
+    <div class="info-container">
+
+        <aside class="aside-section">
             
-            <h2 class="title-article">Опыт работы</h2>
+            <img src="./img/panda.jpg" alt="">
+        
+            <main class="main-content">
+                <!-- Main information -->
+                <article class="main-info">
+                    <p class="name">Парфёнова Любовь</p>
+                    <p class="date-bithday">15.06.1996</p>
+                </article>
 
-            <!-- ul>(li>(p.position{position}+p.work-place{work place}+p.date{date}))*3 -->
+                <!-- Contacts information -->
+                <article class="contacts-info">
+                    <p class="contacts"><a href="tel:+380636741722">063 674 17 22</a></p>
+                    <p class="contacts"><a href="mailto:lubaparfyonova@gmail.com">lubaparfyonova@gmail.com</a></p>
+                    <p class="contacts">Днипро</p>
+                </article>
+            </main>
+        </aside>    
 
-            <ul>
-                <li>
-                    <p class="position">Лаборант химического анализа</p>
-                    <p class="work-place">МЗ Интерпайп Сталь</p>
-                    <p class="date">с 2021 г</p>
-                </li>
-                <li>
-                    <p class="position">Агент по продаже недвижимости</p>
-                    <p class="work-place">АН KVADRATGROUP</p>
-                    <p class="date">2020-2021 гг.</p>
-                </li>
-            </ul>
-        </article>
-    </section>
+        <section class="info-section">
+            <!-- Education -->
+            <article class="education-section">
+                <h2 class="title-article">Образование</h2>
+                <h2 class="type-education">Высшее</h2>
+                <p class="content">УДХТУ <br>Инженер-технолог производства неорганических веществ</p>
+                <p class="date">2015-2020 гг.</p>
+                <h2 class="type-education">Среднее</h2>
+                <p class="content">СХМТ <br> Химик-лаборант</p>
+                <p class="date">2011-2014 гг.</p>
+                <h2 class="type-education">Знание English</h2>
+                <p class="content">Elementary. A1</p>
+            </article>
+
+            <!-- Work experience -->
+            <article class="work-experience">
+                
+                <h2 class="title-article">Опыт работы</h2>
+
+                <!-- ul>(li>(p.position{position}+p.work-place{work place}+p.date{date}))*3 -->
+
+                <ul>
+                    <li>
+                        <p class="position">Лаборант химического анализа</p>
+                        <p class="work-place"><a href="http://interpipesteel.biz/" target="_blank">МЗ Интерпайп Сталь</a> </p>
+                        <p class="date">с 2021 г</p>
+                    </li>
+                    <li>
+                        <p class="position">Агент по продаже недвижимости</p>
+                        <p class="work-place" >a АН KVADRATGROUP</p>
+                        <p class="date">2020-2021 гг.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </div>
 </body>
 </html>
